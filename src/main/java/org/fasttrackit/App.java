@@ -1,5 +1,7 @@
 package org.fasttrackit;
+
 import java.util.Scanner;
+
 public class App
 {
     public static void main( String[] args )
@@ -17,7 +19,6 @@ public class App
         BankAccount bankAccount = new BankAccount(custName, custSurname);
 
         bankAccount.showMenu();
-
 
     }
 }
